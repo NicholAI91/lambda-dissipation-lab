@@ -2,7 +2,7 @@ Lambda Dissipation Simulator (Memory-Weighted Dissipation Framework)
 Copyright (c) 2026 Nicholas Reid Angell. All Rights Reserved.
 
 =========================================================================
-ATTRIBUTION & ACKNOWLEDGMENTS
+ATTRIBUTION, CITATION & ACKNOWLEDGMENTS
 =========================================================================
 
 Project Conception & Direction:
@@ -13,3 +13,6 @@ Project Conception & Direction:
 Computational & Application Engineering:
   Google AI Studio (Gemini)
   - Assisted with mathematical computation confirmation, numerical calculus algorithm execution, interactive visualizer UI engineering, and application implementation under the direction of Nicholas Reid Angell.
+
+Academic & Industry Citation:
+  Any academic, educational, or peer-reviewed publication or presentation referencing this framework or codebase must include formal citation to Nicholas Reid Angell as specified in CITATION.cff or README.md.

@@ -92,6 +92,27 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to launch th
 
 ---
 
+## 📖 Citation
+
+If you reference, build upon, or utilize this mathematical model, non-Markovian convolution kernels, or software implementation in academic papers, research, or industry reports, please cite:
+
+### APA Format
+> Angell, N. R. (2026). *Lambda Dissipation Simulator: Memory-Weighted Dissipation Potential Framework* [Computer software].
+
+### BibTeX Format
+```bibtex
+@software{Angell_Lambda_Dissipation_Simulator_2026,
+  author    = {Angell, Nicholas Reid},
+  title     = {{Lambda Dissipation Simulator: Memory-Weighted Dissipation Framework}},
+  year      = {2026},
+  month     = {7},
+  note      = {Theoretical formulation and interactive non-Markovian numerical calculus simulator},
+  url       = {https://github.com/YOUR_USERNAME/lambda-dissipation-simulator}
+}
+```
+
+---
+
 ## 📜 License & Copyright
 
 Copyright © 2026 **Nicholas Reid Angell**. All Rights Reserved.

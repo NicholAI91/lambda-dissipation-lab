@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Lambda Dissipation Simulator: Memory-Weighted Dissipation Framework"
+message: "If you use this theoretical framework, mathematical model, or simulation code in academic or industrial research, please cite it as below."
+type: software
+authors:
+  - family-names: "Angell"
+    given-names: "Nicholas Reid"
+date-released: 2026-07-28
+abstract: "Interactive visualizer, numerical calculus simulator, and non-Markovian memory-weighted dissipation potential framework spanning 9 multidisciplinary physics, engineering, and economic domains."
+keywords:
+  - non-markovian
+  - dissipation-potential
+  - memory-kernels
+  - convolution-calculus
+  - mathematical-modeling
