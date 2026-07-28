@@ -1,0 +1,6 @@
+{
+  "name": "Lambda Dissipation Simulator",
+  "description": "Interactive physics visualizer and continuous calculus calculator for memory-weighted dissipation models",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
