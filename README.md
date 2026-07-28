@@ -87,4 +87,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to launch th
 
 ## 📜 License
 
-MIT License. Feel free to fork, customize, and apply to new research fields!
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for complete terms and permissions.
