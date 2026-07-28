@@ -85,6 +85,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to launch th
 
 ---
 
-## 📜 License
+## 👤 Author & Acknowledgments
 
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for complete terms and permissions.
+- **Creator & Principal Investigator**: **Nicholas Reid Angell** — Theoretical formulation, domain models, non-Markovian memory dissipation architecture, and project direction.
+- **AI Co-Development**: **Google AI Studio (Gemini)** — Computational mathematics validation, calculus algorithm engineering, and full-stack application development assistance.
+
+---
+
+## 📜 License & Copyright
+
+Copyright © 2026 **Nicholas Reid Angell**. All Rights Reserved.
+
+Licensed under a **Source-Available Non-Commercial License**. Free for personal, academic, peer-review, research, and evaluation purposes. **Commercial use, SaaS monetization, or corporate deployment is strictly prohibited without a separate commercial license from Nicholas Reid Angell.**
+
+See the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for complete legal terms and attribution guidelines. For commercial licensing inquiries, contact **nicknbaangell@gmail.com**.
