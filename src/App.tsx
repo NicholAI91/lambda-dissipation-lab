@@ -12,6 +12,7 @@ import { RoiCalculatorDashboard } from './components/RoiCalculatorDashboard';
 import { AlgorithmExplanationGuide } from './components/AlgorithmExplanationGuide';
 import { DomainPresetsPanel } from './components/DomainPresetsPanel';
 import { ReportExportModal } from './components/ReportExportModal';
+import { EmpiricalDataPanel } from './components/EmpiricalDataPanel';
 import {
   Download,
   Activity,
@@ -19,13 +20,14 @@ import {
   SlidersHorizontal,
   Calculator,
   BookOpen,
+  Database,
 } from 'lucide-react';
 
 export default function App() {
   const [currentPreset, setCurrentPreset] = useState<DomainPreset>(DOMAIN_PRESETS[0]);
   const [isExportOpen, setIsExportOpen] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<
-    'simulation' | 'roi' | 'explanation' | 'sensitivity' | 'comparison'
+    'simulation' | 'roi' | 'explanation' | 'sensitivity' | 'comparison' | 'empirical'
   >('simulation');
 
   // Simulation Parameters state
@@ -255,6 +257,18 @@ export default function App() {
             <GitCompare className="w-4 h-4" />
             Benchmark Comparison
           </button>
+
+          <button
+            onClick={() => setActiveTab('empirical')}
+            className={`px-3.5 py-2 rounded text-xs font-semibold flex items-center gap-1.5 transition-all ${
+              activeTab === 'empirical'
+                ? 'bg-indigo-600 text-white shadow-sm'
+                : 'text-slate-600 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-100'
+            }`}
+          >
+            <Database className="w-4 h-4 text-emerald-500" />
+            Empirical Data & Reports
+          </button>
         </div>
 
         {/* TAB 1: Live Simulation & Charts */}
@@ -316,6 +330,11 @@ export default function App() {
         {/* TAB 5: Benchmark Comparison */}
         {activeTab === 'comparison' && (
           <ComparisonPanel baseParams={params} baseResults={results} />
+        )}
+
+        {/* TAB 6: Empirical Data & Reports */}
+        {activeTab === 'empirical' && (
+          <EmpiricalDataPanel />
         )}
       </main>
 
