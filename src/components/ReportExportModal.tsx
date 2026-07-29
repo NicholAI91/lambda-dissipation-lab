@@ -38,6 +38,7 @@ LAMBDA DISSIPATION MODEL TECHNICAL EVALUATION REPORT
 Equation: Lambda = Kc * Integral_0^T [ Phi(t) * (-dU/dt) ] dt
 Domain: ${currentPreset.category} - ${currentPreset.name}
 Generated: ${new Date().toISOString()}
+Author: Nicholas Reid Angell
 ===============================================================
 
 PARAMETERS:
@@ -297,6 +298,7 @@ INTERPRETATION:
     doc.setFontSize(7.5);
     doc.setTextColor(148, 163, 184);
     doc.text('Lambda Continuous Memory Calculus Engine — Certified Evaluation Summary', 14, y + 4);
+    doc.text('© 2026 Nicholas Reid Angell. All Rights Reserved.', pageWidth - 14, y + 4, { align: 'right' });
 
     doc.save(`Lambda_Simulation_Report_${currentPreset.id}.pdf`);
   };

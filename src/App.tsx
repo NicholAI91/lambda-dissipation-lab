@@ -346,6 +346,10 @@ export default function App() {
         results={results}
         currentPreset={currentPreset}
       />
+
+      <footer className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-center text-[11px] text-slate-500 font-mono">
+        &copy; 2026 Nicholas Reid Angell. All Rights Reserved. | Lambda Dissipation Simulator (Memory-Weighted Dissipation Framework)
+      </footer>
     </div>
   );
 }
