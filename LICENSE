@@ -1,50 +1,21 @@
-SOURCE-AVAILABLE NON-COMMERCIAL LICENSE & COMMERCIAL TERMS
+MIT License
 
-Copyright (c) 2026 Nicholas Reid Angell. All Rights Reserved.
+Copyright (c) 2026 Nicholas Reid Angell
 
-===============================================================================
-1. GRANT OF LICENSE FOR NON-COMMERCIAL & EVALUATION USE
-===============================================================================
-Subject to the terms and conditions of this Agreement, Nicholas Reid Angell
-("Licensor") grants you a non-exclusive, worldwide, royalty-free license to
-download, view, compile, and execute this software and its source code solely 
-for personal, academic, peer-review research, educational, and evaluation purposes.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-===============================================================================
-2. COMMERCIAL USE RESTRICTION
-===============================================================================
-Commercial use of this software, its algorithms, mathematical models, or derivative 
-works is STRICTLY PROHIBITED without a prior, separate written commercial license 
-agreement executed directly with Nicholas Reid Angell.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Commercial use includes, without limitation:
-  (a) Incorporating, bundling, or executing this code or underlying theoretical 
-      algorithms in any paid product, SaaS platform, cloud service, or software-as-a-service.
-  (b) Utilizing this software within any commercial entity, enterprise, or paid 
-      consulting service.
-  (c) Selling, sublicensing, leasing, renting, or monetization of the code, 
-      compiled binaries, or derived computational engines.
-
-===============================================================================
-3. ATTRIBUTION & DERIVATIVE WORKS
-===============================================================================
-All permitted non-commercial copies, forks, or modifications MUST retain this 
-unmodified LICENSE file and the NOTICE file, maintaining prominent attribution 
-to Nicholas Reid Angell as the creator and principal investigator.
-
-===============================================================================
-4. COMMERCIAL INQUIRIES & PERMISSIONS
-===============================================================================
-To request a commercial license, enterprise agreement, or custom implementation, 
-please contact:
-  Nicholas Reid Angell
-  Email: nicknbaangell@gmail.com
-
-===============================================================================
-5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
-===============================================================================
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR 
-A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER 
-BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR 
-OTHER DEALINGS IN THIS SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
